@@ -1,0 +1,5 @@
+language: java
+before_script:
+  - sudo add-apt-repository ppa:rethinkdb/ppa
+  - sudo apt-get update -q
+  - sudo apt-get install rethinkdb
